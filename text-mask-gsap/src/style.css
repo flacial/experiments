@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'outward';
+  src: url('outward-round.ttf');
+}
+
+@font-face {
+  font-family: 'soria';
+  src: url('soria-font.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'outward';
+  color: rgb(177, 13, 13);
+  background-color: black;
+  min-height: 4000px;
+}
+
+main {
+  padding: 4rem;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'creepster';
+  font-size: 8rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 4rem;
+}
+
+p:nth-child(2) {
+  font-size: 2.8rem;
+  font-family: 'Rokkitt';
+  font-weight: bold;
+  color: rgb(82, 28, 28);
+  clip-path: inset(0% 0% 0% 0%);
+  line-height: 48px;
+  position: absolute;
+}
+
+p:nth-child(1) {
+  font-size: 2.8rem;
+  font-family: 'Rokkitt';
+  font-weight: bold;
+  color: rgb(153, 53, 53);
+  clip-path: inset(0% 0% 0% 0%);
+  line-height: 48px;
+  position: absolute;
+}
+
+.stack {
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  min-height: 100vh;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
